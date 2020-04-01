@@ -1,0 +1,207 @@
+a{
+  text-decoration: none;
+}
+html{
+  scroll-behavior: smooth;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+header{
+  width: 100%;
+  height: 70px;
+  background-color: #EC715F;
+}
+/* ヘッダー　左 */
+.header-box{
+  height: 70px;
+  width: 1024px;
+  margin: auto;
+}
+.header-img{
+  height: 70px;
+  float: left;
+}
+/* ヘッダー　右 */
+.header-right{
+  float: right;
+}
+.nav-lists{
+  color: #FAFAFA;
+  font-size: 16px;
+  float: left;
+  padding: 0 30px;
+  line-height: 70px;
+}
+.nav-lists a{
+  color: #FAFAFA;
+}
+/* メイン */
+.main-img{
+  background-image: url(img/mv.png);
+  width: 100%;
+  height: 650px;
+  background-size: cover;
+  background-position: center;
+}
+.main-title{
+  padding-top: 200px;
+  text-align: center;
+  font-size: 64px;
+  color: #FAFAFA;
+  font-weight: bold;
+}
+.main-text{
+  padding-top: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: #FAFAFA;
+}
+
+/* フッダー */
+footer{
+  width: 100%;
+  height: 60px;
+  background-color: #EC715F;
+}
+.fooder-text{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-align: center;
+  line-height: 60px;
+}
+/* ポートフォリオ */
+.portfolio-box{
+  width: 100%;
+  background-color: #ECEFF1;
+}
+.portfolio-center{
+  width: 920px;
+  margin: 0 auto;
+  text-align: center;
+}
+.portfolio-title{
+  font-size: 32px;
+  color: #000;
+  padding-top: 90px;
+  font-weight: bold;
+}
+.portfolio-title::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  background-color: #EC715F;
+}
+.portfolio-text{
+  padding: 30px 0;
+  font-size: 16px;
+  color: #000;
+}
+.portfolio-imgs{
+  padding-bottom: 90px;
+}
+.portfolio-img{
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  float: left;
+}
+.portfolio-img:nth-child(n + 4){
+  margin-top: 10px;
+}
+.portfolio-img:nth-child(1){
+  margin-right: 10px;
+}
+.portfolio-img:nth-child(4){
+  margin-right: 10px;
+}
+.portfolio-img:nth-child(3){
+  margin-left: 10px;
+}
+.portfolio-img:nth-child(6){
+  margin-left: 10px;
+}
+
+.pf1{
+  background-image: url(img/sketch.jpg);
+}
+.pf2{
+  background-image: url(img/websuku.png);
+}
+.pf3{
+  background-image: url(img/write.jpg);
+}
+.pf4{
+  background-image: url(img/webcamp.png);
+}
+.pf5{
+  background-image: url(img/talk.jpg);
+}
+.pf6{
+  background-image: url(img/webcamp-mother.png);
+}
+
+/* feature */
+
+.feature-box{
+  width: 100%;
+}
+.feature-center{
+  width: 980px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 90px;
+}
+.feature-title{
+  font-size: 32px;
+  color: #000;
+  padding-top: 90px;
+  font-weight: bold;
+}
+.feature-title::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  background-color: #EC715F;
+}
+.feature-text{
+  padding: 30px 0;
+  font-size: 16px;
+  color: #000;
+}
+.Strength{
+  margin-right: 10px;
+  float: left;
+  width: 320px;
+  height: auto;
+}
+.Strength:last-child {
+  margin-right: 0;
+}
+.Strength-title{
+  font-weight: bold;
+  font-size: 20px;
+  color: #000;
+  padding: 10px 0;
+}
+.Strength-text{
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+}
+.fa.fa-code.icon{
+  font-size: 60px;
+}
+.fa.fa-desktop.icon{
+  font-size: 60px;
+}
+.fa.fa-cogs.icon{
+  font-size: 60px;
+}
