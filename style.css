@@ -351,3 +351,164 @@ footer{
   text-align: center;
   line-height: 60px;
 }
+
+@media screen and (max-width:768px) {  
+  .sp-none {
+    display: none;
+  }
+  header{
+    width: 90%;
+    padding: 0 5%;
+    height: 50px;
+  }
+  .header-box{
+    width: 90%;
+    padding: 0 5%;
+    height: 50px;
+  }
+  .header-img{
+    float: none;
+    height: 50px;
+  }
+  .nav-lists{
+    display: none;
+  }
+  #humberger {
+    margin: 5px 0;
+    position: relative;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #EC715F;
+    border: 1px solid #fff;
+    float: right;
+  }
+  #humberger div {
+    position: absolute;
+    left: 7px;
+    height: 2px;
+    width: 25px;
+    background-color: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+  #humberger div:nth-of-type(1) {
+    top: 11px;
+  }
+  #humberger div:nth-of-type(2) {
+    top: 18px;
+  }
+  #humberger div:nth-of-type(3) {
+    bottom: 11px;
+  }
+  .main-img{
+    background-image: url(img/code.png);
+    width: 90%;
+    padding: 0 5%;
+  }
+  .main-title{
+    font-size: 40px;
+  }
+  .main-text{
+    font-size: 18px;
+  }
+  .feature-center{
+    width: 90%;
+    padding: 0 5%;
+  }
+  .Strengths{
+    margin: 0 16px;
+    padding-bottom: 90px;
+  }
+  .Strength{
+    margin-top: 10px;
+    float: none;
+  }
+  .Strength:first-child{
+    margin: 0;
+  }
+
+  .portfolio-box{
+    width: 90%;
+    padding: 0 5%;
+  }
+  .portfolio-img{
+    float: none;
+    margin: 0;
+  }
+  .portfolio-img:nth-child(6){
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  .portfolio-center{
+    width: 90%;
+    padding: 0 5%;
+  }
+
+  .profile-center{
+    width: 90%;
+    padding: 0 5%;
+  }
+  .profile-group{
+    width: 90%;
+  }
+  .profile-left{
+    margin-left: 15px;
+    width: 100%;
+    float: none;
+  }
+  .profile-right{
+    float: none;
+    width: 100%;
+    margin-left: 16px;
+  }
+  .introduction-title{
+    margin: 20px 0 5px 0;
+    text-align: center;
+  }
+  .introduction-text{
+    text-align: center;
+  }
+
+  .introduction-title:first-child {
+    margin-top: 20px;
+}
+  .contact-center{
+    width: 90%;
+    padding: 0 5%;
+  }
+  .contact-group {
+    width: 100%;
+    text-align: center;
+}
+  .contact-left-center {
+    width: 100%;
+    text-align: center;
+  }
+  .contact-right-center {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .contact-left {
+    float: none;
+    width: 100%;
+  }
+  .contact-right {
+    float: none;
+    width: 100%;
+  }
+  .fa.fa-facebook.icon{
+    margin-right: 8px;
+  }
+  .fa.fa-twitter.icon{
+    margin-right: 8px;
+  }
+  footer{
+    width: 90%;
+    padding: 0 5%;
+  }
+
+}
